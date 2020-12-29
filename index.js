@@ -15,7 +15,7 @@ function nowServing(theDeliLine) {
 
   if (theDeliLine.length > 0){
     return `Currently serving ${theDeliLine[0]}.`;
-    theDeliLine.unshift([0]);
+    theDeliLine.slice([0]);
   }
 
   else {
