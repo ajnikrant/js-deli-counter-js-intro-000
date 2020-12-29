@@ -9,7 +9,7 @@ return theDeliLine;
 }
 
 
-function nowServing(theDeliLine, name) {
+function nowServing(theDeliLine) {
 
   //let theDeliLine = [];
 
