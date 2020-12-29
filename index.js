@@ -14,7 +14,7 @@ function nowServing(name) {
   let theDeliLine = [];
 
   if (theDeliLine.lenth == 0) {
-    return = "There is nobody waiting to be served!";
+    return "There is nobody waiting to be served!";
   }
 
   else {
