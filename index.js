@@ -39,8 +39,10 @@ function currentLine(theDeliLine) {
       if (i== theDeliLine.length) {
         line = line + (i+1) + `. ${theDeliLine[i]}`;
       }
+      else {
       line = line + (i+1) + `. ${theDeliLine[i]}, `;
     }
+  }
     return line;
   }
 
