@@ -40,9 +40,9 @@ function currentLine(theDeliLine) {
         line = line + (i+1) + `. ${theDeliLine[i]}`;
       }
       else {
-      line = line + (i+1) + `. ${theDeliLine[i]}, `;
+        line = line + (i+1) + `. ${theDeliLine[i]}, `;
+      }
     }
-  }
     return line;
   }
 
