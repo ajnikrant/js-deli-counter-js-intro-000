@@ -35,7 +35,7 @@ function currentLine(theDeliLine) {
 
     for (let i = 0; i < theDeliLine.length; i++) {
 
-      if (i== theDeliLine.length) {
+      if (i== theDeliLine.length - 1) {
         line = line + (i+1) + `. ${theDeliLine[i]}`;
       }
       else {
