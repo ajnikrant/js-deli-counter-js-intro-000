@@ -11,7 +11,7 @@ return theDeliLine;
 
 function nowServing(theDeliLine, name) {
 
-  let theDeliLine = [];
+  //let theDeliLine = [];
 
   if (theDeliLine.length > 0){
     return "Currently serving ${name}";
