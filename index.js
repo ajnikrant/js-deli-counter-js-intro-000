@@ -13,9 +13,9 @@ function nowServing(theDeliLine) {
 
   if (theDeliLine.length > 0){
 
-  //  theDeliLine.shift([0]);
-    return `Currently serving ${theDeliLine[0]}.`;
+    var tempName = theDeliLine[0];
     theDeliLine.shift();
+    return `Currently serving ${tempName}.`;
   }
 
   else {
