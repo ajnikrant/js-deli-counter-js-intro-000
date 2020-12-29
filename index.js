@@ -32,7 +32,7 @@ function currentLine(theDeliLine) {
 
   if (theDeliLine.length > 0){
     for (let i = 0; i < theDeliLine.length; i++) {
-        return `The line is currently ` + i + `. ${theDeliLine[i]}.`;
+        return `The line is currently ` + (i+1) + `. ${theDeliLine[i]}.`;
       }
   }
 
