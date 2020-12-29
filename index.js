@@ -18,6 +18,6 @@ function nowServing(name) {
   }
 
   else {
-    return = theDeliLine.push("`${name}` is currently in line.");
+    theDeliLine.push("`${name}` is currently in line.");
   }
 }
