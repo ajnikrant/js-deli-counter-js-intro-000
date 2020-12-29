@@ -33,9 +33,9 @@ function currentLine(theDeliLine) {
   if (theDeliLine.length > 0){
     let line = 'The line is currently: ';
 
-    
+
     for (let i = 0; i < theDeliLine.length; i++) {
-      
+
       if (i== theDeliLine.length) {
         line = line + (i+1) + `. ${theDeliLine[i]}`;
       }
