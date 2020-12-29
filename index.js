@@ -27,12 +27,11 @@ function nowServing(theDeliLine) {
 
 
 
-function currentLine(theDeliLine, customers) {
+function currentLine(theDeliLine) {
   if (theDeliLine.length > 0){
     for (let i = 0; i < customers.length; i++) {
         return `The line is currently` + (i+1) + `${customers[i]}.`;
       }
-      return theDeliLine;
   }
 
   else {
