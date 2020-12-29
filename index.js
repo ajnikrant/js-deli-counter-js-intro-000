@@ -29,7 +29,6 @@ function nowServing(theDeliLine) {
 
 function currentLine(theDeliLine) {
 
-
   if (theDeliLine.length > 0){
     let line = 'The line is currently: ';
 
