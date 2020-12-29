@@ -11,10 +11,8 @@ return theDeliLine;
 
 function nowServing(theDeliLine) {
 
-  //let theDeliLine = [];
-
   if (theDeliLine.length > 0){
-    return `Currently serving ${theDeliLine[0]}.`;
+    result = `Currently serving ${theDeliLine[0]}.`;
     theDeliLine.shift([0]);
   }
 
