@@ -9,16 +9,16 @@ return theDeliLine;
 }
 
 
-function nowServing(name) {
+function nowServing(theDeliLine, name) {
 
   let theDeliLine = [];
 
-  if (theDeliLine.lenth == 0) {
-    return "There is nobody waiting to be served!";
+  if (theDeliLine.length > 0){
+    return "Currently serving ${name}";
   }
 
   else {
-    theDeliLine.push(`Currently serving ${name}.`);
+    return "There is nobody waiting to be served!";
   }
 
   return theDeliLine;
