@@ -14,6 +14,7 @@ function nowServing(theDeliLine, name) {
   //let theDeliLine = [];
 
   if (theDeliLine.length > 0){
+    theDeliLine.push(name);
     return `Currently serving ${name}`;
   }
 
