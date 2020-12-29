@@ -31,12 +31,11 @@ function currentLine(theDeliLine) {
 
 
   if (theDeliLine.length > 0){
-    let line=[];
+    let line=["The line is currently "];
     for (let i = 0; i < theDeliLine.length; i++) {
       line.push(`The line is currently ` + (i+1) + `. ${theDeliLine[i]}.`);
     }
     return line;
-
   }
 
   else {
