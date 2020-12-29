@@ -22,5 +22,5 @@ function nowServing(theDeliLine) {
     return "There is nobody waiting to be served!";
   }
 
-  return theDeliLine;
+//  return theDeliLine;
 }
